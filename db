@@ -1,0 +1,17 @@
+
+CREATE DATABASE projetoionic;
+USE projetoionic;
+
+CREATE TABLE users (
+  ID INT AUTO_INCREMENT,
+  name VARCHAR(255),
+  user VARCHAR(255),
+  password VARCHAR(255),
+  PRIMARY KEY (ID)
+);
+
+INSERT INTO users (name, user, password) VALUES ('Alice', 'alice123', 'password1');
+INSERT INTO users (name, user, password) VALUES ('Bob', 'bob123', 'password2');
+INSERT INTO users (name, user, password) VALUES ('Charlie', 'charlie123', 'password3');
+INSERT INTO users (name, user, password) VALUES ('Dave', 'dave123', 'password4');
+INSERT INTO users (name, user, password) VALUES ('Eve', 'eve123', 'password5');
